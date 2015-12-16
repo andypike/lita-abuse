@@ -78,6 +78,7 @@ module Lita
 
       def abuse(response)
         name   = response.matches.first.first
+        name   = "<#{name}>" if name.start_with?("@")
         insult = "#{FIRST.sample} #{SECOND.sample} #{THIRD.sample}"
 
         response.reply("#{name} you are a #{insult}")
