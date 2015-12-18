@@ -2,7 +2,7 @@
 
 This plugin is extremely abusive. Only use this if users do not mind being
 offended! This is based in the excellent work of Ben Lovell and his abuse Hubot
-and abuse as a service platform: http://fierce-thicket-2438.herokuapp.com. Take
+and abuse as a service platform: https://github.com/benlovell/abuse/. Take
 a look at that for examples of the abuse you might receive.
 
 ## Installation
